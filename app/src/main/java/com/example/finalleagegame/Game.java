@@ -33,11 +33,11 @@ public class Game extends AppCompatActivity {
     public static int answerCount = 0;
     public static List<Integer> order = null;
 
-    Random random = new Random();
-
     ArrayList<String> champList = new ArrayList<>();
     ArrayList<String> hintList = new ArrayList<>();
 
+    Random random = new Random();
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
